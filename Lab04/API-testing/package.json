@@ -1,0 +1,19 @@
+{
+   "scripts": {
+      "test": "jest"
+   },
+   "devDependencies": {
+      "jest": "^29.7.0"
+   },
+   "dependencies": {
+      "@babel/preset-env": "^7.27.2",
+      "axios": "^1.9.0",
+      "babel-jest": "^29.7.0"
+   },
+   "type": "module",
+   "jest": {
+      "transform": {
+         "^.+\\.jsx?$": "babel-jest"
+      }
+   }
+}
